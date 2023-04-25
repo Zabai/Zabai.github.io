@@ -9,7 +9,7 @@ type Props = PropsWithChildren & {
 export default function Section({ children, id, subtitle, title }: Props) {
   return (
     <section className="section" id={id}>
-      <div className="has-text-centered">
+      <div className="has-text-centered mb-5">
         <h1 className="title is-2">{title}</h1>
         {subtitle && <h2 className="subtitle is-5">{subtitle}</h2>}
       </div>
