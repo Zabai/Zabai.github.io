@@ -1,0 +1,52 @@
+{
+  "about": {
+    "description": "",
+    "profile": {
+      "address": "Localización",
+      "addressValue": "Las Palmas de Gran Canaria, España",
+      "email": "Email",
+      "telephone": "Teléfono",
+      "title": "Perfil"
+    },
+    "skills": {
+      "skill": "{{technology}} ({{amount}} años)",
+      "title": "Habilidades"
+    },
+    "subtitle": "Conóceme un poco",
+    "title": "Sobre mi"
+  },
+  "contact": {
+    "form": {
+      "message": "Mensaje",
+      "messagePlaceholder": "Hola Zabai, estamos buscando a un desarrollador React y ...",
+      "subject": "Asunto",
+      "subjectPlaceholder": "Posición Senior Front-End React | 100% Remoto | 50k",
+      "submit": "Enviar"
+    },
+    "subtitle": "Dame un toque",
+    "title": "Contacto"
+  },
+  "footer": {
+    "credits": "Modificando la plantilla original de <template>Bulma Personal Template</template> por <author>Muhammad Ubaid Raza</author>.",
+    "made": "Hecho con"
+  },
+  "header": {
+    "subtitle": "Desarrollador React"
+  },
+  "navigator": {
+    "about": "Sobre mi",
+    "contact": "Contacto",
+    "experience": "Experiencia",
+    "resume": "Currículum",
+    "studies": "Estudios"
+  },
+  "resume": {
+    "button": "Descargar CV",
+    "subtitle": "Este portfolio en PDF",
+    "title": "CV"
+  },
+  "studies": {
+    "subtitle": "Títulos, cursos y certificaciones",
+    "title": "Estudios"
+  }
+}
