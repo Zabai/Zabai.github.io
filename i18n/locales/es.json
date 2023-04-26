@@ -26,6 +26,23 @@
     "subtitle": "Dame un toque",
     "title": "Contacto"
   },
+  "experience": {
+    "companies": {
+      "subtitles": {
+        "bitbox": "BITBOX IT IKEA Spanish Islands (2 años)",
+        "loquatFullstack": "Loquat Solutions (3 meses)",
+        "loquatIntern": "Loquat Solutions (4 meses)",
+        "plexus": "Plexus Tech (2.5 años)"
+      },
+      "titles": {
+        "fullstackDeveloper": "Desarrollador Fullstack",
+        "intern": "Empleado en prácticas",
+        "reactDeveloper": "Desarrollador React JS"
+      }
+    },
+    "subtitle": "Mi vida laboral",
+    "title": "Experiencia"
+  },
   "footer": {
     "credits": "Modificando la plantilla original de <template>Bulma Personal Template</template> por <author>Muhammad Ubaid Raza</author>.",
     "made": "Hecho con"
@@ -37,13 +54,17 @@
     "about": "Sobre mi",
     "contact": "Contacto",
     "experience": "Experiencia",
+    "language": {
+      "en": "Español",
+      "es": "English"
+    },
     "resume": "Currículum",
     "studies": "Estudios"
   },
   "resume": {
     "button": "Descargar CV",
     "subtitle": "Este portfolio en PDF",
-    "title": "CV"
+    "title": "Currículum"
   },
   "studies": {
     "subtitle": "Títulos, cursos y certificaciones",
