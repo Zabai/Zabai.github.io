@@ -1,1 +1,73 @@
-{}
+{
+  "about": {
+    "description": "",
+    "profile": {
+      "address": "Address",
+      "addressValue": "Las Palmas de Gran Canaria, Spain",
+      "email": "Email",
+      "telephone": "Telephone",
+      "title": "Profile"
+    },
+    "skills": {
+      "skill": "{{technology}} ({{amount}} years)",
+      "title": "Skills"
+    },
+    "subtitle": "Know me a little",
+    "title": "About me"
+  },
+  "contact": {
+    "form": {
+      "message": "Message",
+      "messagePlaceholder": "Hello Zabai, we are searching a React developer and...",
+      "subject": "Subject",
+      "subjectPlaceholder": "Senior Front-End React | 100% Remote | 50k",
+      "submit": "Send"
+    },
+    "subtitle": "Reach me",
+    "title": "Contact"
+  },
+  "experience": {
+    "companies": {
+      "subtitles": {
+        "bitbox": "BITBOX IT IKEA Spanish Islands (2 years)",
+        "loquatFullstack": "Loquat Solutions (3 months)",
+        "loquatIntern": "Loquat Solutions (4 months)",
+        "plexus": "Plexus Tech (2.5 years)"
+      },
+      "titles": {
+        "fullstackDeveloper": "Fullstack Developer",
+        "intern": "Intern",
+        "reactDeveloper": "React Developer"
+      }
+    },
+    "subtitle": "My working life",
+    "title": "Experience"
+  },
+  "footer": {
+    "credits": "Modifying the original <template>Bulma Personal Template</template> by <author>Muhammad Ubaid Raza</author>.",
+    "made": "Made with"
+  },
+  "header": {
+    "subtitle": "React Developer"
+  },
+  "navigator": {
+    "about": "About me",
+    "contact": "Contact",
+    "experience": "Experience",
+    "language": {
+      "en": "Español",
+      "es": "English"
+    },
+    "resume": "CV",
+    "studies": "Studies"
+  },
+  "resume": {
+    "button": "Download CV",
+    "subtitle": "This portfolio in PDF",
+    "title": "CV"
+  },
+  "studies": {
+    "subtitle": "Degrees, courses and certifications",
+    "title": "Studies"
+  }
+}

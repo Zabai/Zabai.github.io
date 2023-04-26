@@ -11,7 +11,7 @@ export default function Navigator() {
     <Navbar
       endElements={
         <>
-          <NavbarLink icon="fa-info" title={t('about')} to="#about" />
+          <NavbarLink icon="fa-info" title={t('experience')} to="#experience" />
           <NavbarLink
             icon="fa-graduation-cap"
             title={t('studies')}
