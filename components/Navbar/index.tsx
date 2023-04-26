@@ -1,16 +1,10 @@
 import { useEffect, useState } from 'react';
 
-type NavbarItem = {
-  icon?: string;
-  title: string;
-  to: string;
-};
-
 type Props = {
-  endItems: NavbarItem[];
+  endElements?: JSX.Element;
 };
 
-export default function Navbar({ endItems }: Props) {
+export default function Navbar({ endElements }: Props) {
   const [isBurgerOpen, setBurgerOpen] = useState(false);
 
   useEffect(() => {
@@ -36,25 +30,14 @@ export default function Navbar({ endItems }: Props) {
           onClick={() => setBurgerOpen(!isBurgerOpen)}
           role="button"
         >
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
+          <span aria-hidden="true" />
         </a>
       </div>
 
       <div className={`navbar-menu ${isBurgerOpen ? 'is-active' : ''}`}>
-        <div className="navbar-end">
-          {endItems?.map(({ icon, title, to }) => (
-            <a className="navbar-item" href={to} key={title}>
-              {icon && (
-                <span className="icon">
-                  <i className={`fas ${icon}`}></i>
-                </span>
-              )}
-              <span>{title}</span>
-            </a>
-          ))}
-        </div>
+        <div className="navbar-end">{endElements}</div>
       </div>
     </nav>
   );
